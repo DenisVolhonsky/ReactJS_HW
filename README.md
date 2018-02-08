@@ -1,5 +1,4 @@
-### ReactJS_HW
-#Homework on React
+##Homework on ReactJS
 
 
 ## Домашнее задание #1
@@ -82,5 +81,4 @@
   строки добавляется id члена команды и, компонент карточки с информацией о нем,
   использует match.params.параметр для отображения информации.
 
-### [Пример рабочей версии](https://axzerk.github.io/react-minicourse/hw-04/)
 
