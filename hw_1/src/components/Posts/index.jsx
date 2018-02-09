@@ -5,12 +5,12 @@ class Posts extends React.Component {
     render() {
         const {title, text, rating, genre} = this.props;
         return (
-            <div className="Posts">
+            <div className="posts">
                 <h3>{title}</h3>
-                <button className="Delete-btn">Delete</button>
                 <p>{text}</p>
                 <span>{rating}</span>
                 <div>{genre}</div>
+                <button className="delete-btn">Delete</button>
             </div>
         );
     }

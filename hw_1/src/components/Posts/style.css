@@ -1,17 +1,24 @@
-.Posts {
+.posts {
     margin-bottom: 20px;
     margin-right: 20px;
-    width: 150px;
-    padding: 5px;
+    width: 250px;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.Delete-btn {
+.delete-btn {
+    width: 60px;
+    height: 30px;
     background: #FFC107;
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 16px;
+    font-weight: 700;
+    color: #424242;
+
 }
-.Delete-btn:hover {
+.delete-btn:hover {
     background: #3F51B5;
     color: #fff;
 }
+
