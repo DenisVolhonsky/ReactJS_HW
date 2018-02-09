@@ -1,4 +1,5 @@
 .posts {
+    position: relative;
     margin-bottom: 20px;
     margin-right: 20px;
     width: 250px;
@@ -6,6 +7,8 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .delete-btn {
+    display: block;
+    margin-bottom: 16px;
     width: 60px;
     height: 30px;
     background: #FFC107;
@@ -15,10 +18,39 @@
     font-size: 16px;
     font-weight: 700;
     color: #424242;
-
 }
 .delete-btn:hover {
     background: #3F51B5;
     color: #fff;
 }
+.posts__link {
+    color: #424242;
+    font-size: 24px;
+    text-decoration: none;
+}
+.posts__link:hover {
+    color: #3F51B5;
+}
+.posts__rating {
+    font-size: 28px;
+    color: #424242;
+}
+.genre__list {
+    display: flex;
+    padding-left: 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /*margin-bottom: 20px;*/
 
+}
+.genre__item {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 10px 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: #3F51B5;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+}

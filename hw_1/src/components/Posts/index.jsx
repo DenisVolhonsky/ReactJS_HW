@@ -6,10 +6,12 @@ class Posts extends React.Component {
         const {title, text, rating, genre} = this.props;
         return (
             <div className="posts">
-                <h3>{title}</h3>
+                <h3><a className="posts__link" href="">{title}</a></h3>
                 <p>{text}</p>
-                <span>{rating}</span>
-                <div>{genre}</div>
+                <span className="posts__rating">{rating}</span>
+                <ul className="genre__list">
+                    <li className="genre__item">{genre}</li>
+                </ul>
                 <button className="delete-btn">Delete</button>
             </div>
         );
