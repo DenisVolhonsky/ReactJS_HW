@@ -1,0 +1,48 @@
+.form {
+    padding: 10px;
+    border: 1px solid #9E9E9E;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.all_labels {
+    display: block;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.form__title {
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+}
+.form__text {
+    width: 80%;
+    resize: none;
+    font-size: 16px;
+}
+.form__rate {
+    width: 10%;
+    height: 25px;
+    font-size: 16px;
+}
+.form__genre {
+    font-size: 16px;
+    width: 35%;
+    height: 120px;
+}
+.form__note {
+    color: #424242;
+    font-size: 14px;
+}
+.form__submit {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 16px;
+    padding: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 16px;
+    background: #3F51B5;
+    color: #fff;
+}

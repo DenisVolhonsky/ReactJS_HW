@@ -4,7 +4,6 @@
 }
 .posts__container {
     display: flex;
-    border: 1px solid black;
 }
 .posts__body {
     width: 70%;
@@ -13,5 +12,4 @@
 }
 .posts__adding {
     width: 30%;
-    border: 1px solid black;
 }

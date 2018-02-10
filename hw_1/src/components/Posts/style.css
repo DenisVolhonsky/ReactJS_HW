@@ -1,9 +1,10 @@
 .posts {
     margin-bottom: 20px;
     margin-right: 20px;
-    width: 250px;
+    width: 21%;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px solid #9E9E9E;
 }
 .delete-btn {
     display: block;
