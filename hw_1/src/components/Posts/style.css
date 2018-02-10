@@ -1,38 +1,26 @@
 .posts {
+    position: relative;
     margin-bottom: 20px;
     margin-right: 20px;
-    width: 21%;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 21%;
     border: 1px solid #9E9E9E;
-}
-.delete-btn {
-    display: block;
-    margin-bottom: 16px;
-    width: 60px;
-    height: 30px;
-    background: #FFC107;
-    border: none;
-    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    font-size: 16px;
-    font-weight: 700;
-    color: #424242;
 }
-.delete-btn:hover {
-    background: #3F51B5;
-    color: #fff;
+.post__text {
+    word-wrap: break-word;
 }
 .posts__link {
-    color: #424242;
     font-size: 24px;
     text-decoration: none;
+    word-wrap: break-word;
+    color: #424242;
 }
 .posts__link:hover {
     color: #3F51B5;
 }
 .posts__rating {
-    font-size: 28px;
+    font-size: 22px;
     color: #424242;
 }
 .genre__list {
@@ -41,8 +29,6 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     list-style-type: none;
-    /*margin-bottom: 20px;*/
-
 }
 .genre__item {
     margin-bottom: 5px;
@@ -53,4 +39,29 @@
     text-transform: uppercase;
     color: #fff;
     font-size: 14px;
+}
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+}
+.delete-btn:hover {
+    opacity: 1;
+}
+.delete-btn:before, .delete-btn:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 14px;
+    width: 2px;
+    background-color: #333;
+}
+.delete-btn:before {
+    transform: rotate(45deg);
+}
+.delete-btn:after {
+    transform: rotate(-45deg);
 }

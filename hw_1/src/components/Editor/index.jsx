@@ -9,7 +9,7 @@ class Editor extends React.Component {
                 <input type="text" className="form__title" id="title" tabIndex="1" autoFocus/>
                 <label className="all_labels" htmlFor="text">Введите описание фильма:</label>
                 <textarea className="form__text" id="text" cols="35" rows="10" tabIndex="2"></textarea>
-                <label className="all_labels" htmlFor="rate">Выберите рейтинг фильма:</label>
+                <label className="all_labels" htmlFor="rate">Рейтинг фильма:</label>
                 <select name="rate" id="rate" className="form__rate">
                     <option value="1" selected>1</option>
                     <option value="2">2</option>

@@ -1,25 +1,27 @@
-.Header {
+.header {
+    display: flex;
     margin-bottom: 20px;
     height: 60px;
     border-bottom: 4px solid #3F51B5;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.Header--logo {
+.header__logo {
+    text-decoration: none;
     color: #3F51B5;
 }
-.Navbar-list {
+.navbar__list {
     display: inline-block;
-    list-style-type: none;
     margin-left: 20px;
+    list-style-type: none;
+
 }
-.Navbar-list>a {
+.navbar__list>a {
     text-decoration: none;
     color: #424242;
     font-size: 25px;
 
 }
-.Navbar-list>a:hover {
+.navbar__list>a:hover {
     color: #9E9E9E;
 }

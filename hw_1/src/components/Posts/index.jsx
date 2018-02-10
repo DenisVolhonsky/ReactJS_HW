@@ -7,12 +7,12 @@ class Posts extends React.Component {
         return (
             <div className="posts">
                 <h3><a className="posts__link" href="">{title}</a></h3>
-                <p>{text}</p>
-                <span className="posts__rating">{rating}</span>
+                <p className="post__text">{text}</p>
+                <span className="posts__rating">Rating: {rating}</span>
                 <ul className="genre__list">
                     <li className="genre__item">{genre}</li>
                 </ul>
-                <button className="delete-btn">Delete</button>
+                <span className="delete-btn"></span>
             </div>
         );
     }
