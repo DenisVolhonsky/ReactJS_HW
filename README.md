@@ -1,7 +1,8 @@
-##Homework on ReactJS
+Homework on ReactJS
 
-##Pages:
-https://denisvolhonsky.github.io/ReactJS_HW/
+Pages:
+Homework1: https://denisvolhonsky.github.io/ReactJS_HW/hw_1/build/index.html
+
 
 ## Домашнее задание #1
 
