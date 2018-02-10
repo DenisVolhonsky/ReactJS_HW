@@ -1,5 +1,6 @@
 ##Homework on ReactJS
-
+Pages:
+https://denisvolhonsky.github.io/ReactJS_HW/
 
 ## Домашнее задание #1
 
@@ -54,8 +55,6 @@
 * Api Endpoint: https://api.themoviedb.org/3/
 * [Документация по поиску кинофильма по имени](https://developers.themoviedb.org/3/search/search-movies)
 * [Документация по категориям поиска](https://developers.themoviedb.org/3/tv)
-
-### [Пример рабочей версии](https://axzerk.github.io/react-minicourse/hw-03/)
 
 ## Домашнее задание #4
 
