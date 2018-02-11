@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
+    "react-scripts": "1.1.0",
+    "uuid": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -13,5 +15,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage" : "https://denisvolhonsky.github.io/ReactJS_HW/hw_1/build/"
+  "homepage": "https://denisvolhonsky.github.io/ReactJS_HW/hw_1/build/"
 }

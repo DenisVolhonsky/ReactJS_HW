@@ -12,8 +12,8 @@ class Editor extends React.Component {
                 <textarea className="form__text" id="text" cols="35" rows="10" tabIndex="2"></textarea>
 
                 <label className="all_labels" htmlFor="rate">Рейтинг фильма:</label>
-                <select name="rate" id="rate" className="form__rate">
-                    <option value="1" selected>1</option>
+                <select id="rate" className="form__rate">
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -66,7 +66,7 @@ class Editor extends React.Component {
                     <input type="checkbox" name="" id="g10" value="боевик"/>
                     <label htmlFor="g10">боевик</label>
                 </div>
-                <p className="form__note">* Вы можете выбрать несколько жанров используя (ctrl)</p>
+                <p className="form__note">* Вы можете выбрать несколько жанров.</p>
 
                 <button type="submit" className="form__submit">Сохранить</button>
             </form>

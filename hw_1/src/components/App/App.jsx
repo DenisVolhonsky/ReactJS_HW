@@ -5,8 +5,6 @@ import Posts from 'components/Posts';
 import posts from 'posts.js';
 import Editor from "../Editor/index";
 
-console.log(posts);
-
 class App extends React.Component {
     render() {
         return (
