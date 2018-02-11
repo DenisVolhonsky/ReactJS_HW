@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-class Editor extends React.Component {
+export default class Editor extends React.Component {
     render() {
         return(
             <form className="form">
@@ -73,5 +73,3 @@ class Editor extends React.Component {
         );
     }
 }
-
-export default Editor;

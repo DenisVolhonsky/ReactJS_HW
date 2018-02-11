@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './style.css'
 
-class Posts extends React.Component {
+export default class Posts extends React.Component {
     render() {
         const {title, text, rating, genre} = this.props;
         return (
@@ -25,6 +25,3 @@ Posts.propTypes = {
     rating: PropTypes.number.isRequired,
     genre: PropTypes.array.isRequired
 }
-
-
-export default Posts;
