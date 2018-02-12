@@ -3,6 +3,15 @@ import PropTypes from 'prop-types';
 import './style.css'
 
 export default class Posts extends React.Component {
+
+    ///// определяем типы для пропов
+    static propTypes = {
+        title: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired,
+        rating: PropTypes.number.isRequired,
+        genre: PropTypes.array.isRequired
+    }
+
     render() {
         const {title, text, rating, genre} = this.props;
         return (
@@ -19,9 +28,3 @@ export default class Posts extends React.Component {
     }
 }
 
-Posts.propTypes = {
-    title: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
-    rating: PropTypes.number.isRequired,
-    genre: PropTypes.array.isRequired
-}

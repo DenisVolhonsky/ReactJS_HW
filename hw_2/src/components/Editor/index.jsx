@@ -2,9 +2,35 @@ import React from 'react';
 import './style.css';
 
 export default class Editor extends React.Component {
+    constructor() {
+        super();
+
+        this.state = {
+            count: 0
+        }
+
+    }
+
+    _handleClick = (event) => {   // как бы приватный метод
+        console.log(event.target); // button
+        console.log(this); // Editor
+
+        // this.setState({
+        //     count: this.state.count + 1
+        // });
+
+        this.setState((prevState)=> {
+            console.log(prevState);
+            return {count: prevState.count + 1};
+            });
+    }
+
     render() {
+        console.log(this.state.count);
+        const {count} = this.state;
+
         return(
-            <form className="form">
+            <div className="form">
                 <label className="all_labels" htmlFor="title">Введите название фильма:</label>
                 <input type="text" className="form__title" id="title" tabIndex="1" autoFocus/>
 
@@ -67,9 +93,12 @@ export default class Editor extends React.Component {
                     <label htmlFor="g10">боевик</label>
                 </div>
                 <p className="form__note">* Вы можете выбрать несколько жанров.</p>
+                <button className="form__submit" onClick={this._handleClick}>Сохранить</button>
+                <h3>{count}</h3>
+            </div>
 
-                <button type="submit" className="form__submit">Сохранить</button>
-            </form>
         );
     }
 }
+
+

@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://denisvolhonsky.github.io/ReactJS_HW/hw_1/build/"
+  "homepage": "https://denisvolhonsky.github.io/ReactJS_HW/hw_2/build/"
 }
