@@ -36,10 +36,9 @@ export default class Editor extends React.Component {
 
         newPost.genre = newPost.genre.filter(el=>el !== undefined);
 
+        this.props.onFormSubmit(newPost);  // тоже что и onAddTodo(newPost)
+
         this.form.reset();
-
-        console.log(newPost);
-
     }
 
     render() {

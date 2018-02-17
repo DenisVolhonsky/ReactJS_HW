@@ -13,27 +13,14 @@ export default class App extends React.Component {
     state = {
            allPosts: posts
     }
-    // onAddTodo = () => {
-    //     this.setState({
-    //         id: v4(),
-    //         title: '',
-    //         text: 'Брюс Уэйн',
-    //         rating: 3,
-    //     //    genre: ['драма']
-    //     });
 
-       // console.log(this.state);
-       //  let posts1;
-       //  posts1 = posts;
-       //  console.log(posts1);
-       //  posts1 = [...posts1, this.state];
-       //  console.log(posts1);
-       //  console.log( typeof posts1);
-
-
+    onAddTodo = (todo) => {
+        this.setState({
+            allPosts: [...this.state.allPosts, todo]
+        });
+    }
 
     render() {
-      // const {title} = this.state;
         return (
             <div className="container">
                 <Header/>
@@ -42,7 +29,7 @@ export default class App extends React.Component {
                         {this.state.allPosts.map(post => <Posts key={post.id} {...post}/>)}
                     </div>
                     <div className="posts__adding">
-                        <Editor />
+                        <Editor onFormSubmit={this.onAddTodo}/>
                     </div>
                 </div>
             </div>
