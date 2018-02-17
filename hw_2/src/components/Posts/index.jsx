@@ -8,12 +8,14 @@ export default class Posts extends React.Component {
     static propTypes = {
         title: PropTypes.string.isRequired,
         text: PropTypes.string.isRequired,
-        rating: PropTypes.number.isRequired,
-        genre: PropTypes.array.isRequired
+        //rating: PropTypes.number.isRequired,
+        //genre: PropTypes.array.isRequired
+        //todos: PropTypes.arrayOf(PropTypes.string.isRequered).isRequired
     }
 
     render() {
         const {title, text, rating, genre} = this.props;
+
         return (
             <div className="posts">
                 <h3><a className="posts__link" href="">{title}</a></h3>
@@ -27,4 +29,6 @@ export default class Posts extends React.Component {
         );
     }
 }
+
+
 
