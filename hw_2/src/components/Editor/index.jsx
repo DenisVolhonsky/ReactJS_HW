@@ -1,12 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import v4 from 'uuid/v4';
 import './style.css';
 
-
 export default class Editor extends React.Component {
-  //  static propTypes = {
-        //onFormSubmit: PropTypes.func.isRequired
-  //  }
+   static propTypes = {
+        onFormSubmit: PropTypes.func.isRequired
+    }
     constructor(){
         super();
         this.checkBox=[];
@@ -46,6 +46,7 @@ export default class Editor extends React.Component {
     }
 
     render() {
+
         const optionsVal = [1,2,3,4,5,6,7,8,9,10];
         const checkboxVal = ["фантастика","драма","приключения","мелодрама","семейный","вестерн","триллер","ужасы","комедия","боевик"];
 
