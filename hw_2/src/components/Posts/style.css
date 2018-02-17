@@ -54,9 +54,9 @@
 }
 .delete-btn:before, .delete-btn:after {
     position: absolute;
-    left: 15px;
+    left: 10px;
     content: ' ';
-    height: 14px;
+    height: 16px;
     width: 2px;
     background-color: #333;
 }

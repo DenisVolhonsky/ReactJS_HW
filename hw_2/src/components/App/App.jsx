@@ -31,12 +31,9 @@ export default class App extends React.Component {
                     <div className="posts__body">
                         {this.state.allPosts.map(post => <Posts onTodoClick={this.onDeleteTodo} key={post.id} {...post}/>)}
                     </div>
-                    <div className="posts__adding">
-                        <Editor onFormSubmit={this.onAddTodo}/>
-                    </div>
+                    <Editor onFormSubmit={this.onAddTodo}/>
                 </div>
             </div>
         );
     }
-
 }
