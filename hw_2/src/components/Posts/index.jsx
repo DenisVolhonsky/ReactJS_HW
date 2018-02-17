@@ -14,7 +14,7 @@ export default class Posts extends React.Component {
     }
 
     render() {
-        const {title, text, rating, genre} = this.props;
+        const {id, title, text, rating, genre, onTodoClick} = this.props;
 
         return (
             <div className="posts">
@@ -24,7 +24,7 @@ export default class Posts extends React.Component {
                 <ul className="genre__list">
                     {genre.map(item => <li className="genre__item" key={item}>{item}</li>)}
                 </ul>
-                <span className="delete-btn"></span>
+                <span className="delete-btn" onClick={()=>onTodoClick(id)}></span>
             </div>
         );
     }
