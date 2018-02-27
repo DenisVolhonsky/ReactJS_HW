@@ -7,6 +7,10 @@ import Editor from "../Editor/index";
 
 export default class App extends React.Component {
 
+    state = {
+        allPosts: posts
+    }
+
     onAddTodo = todo => {
         this.setState({
             allPosts: [...this.state.allPosts, todo]
