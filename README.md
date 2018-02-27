@@ -6,6 +6,8 @@ Homework1: https://denisvolhonsky.github.io/ReactJS_HW/hw_1/build/index.html
 
 Homework2+bonus: https://denisvolhonsky.github.io/ReactJS_HW/hw_2/build/index.html
 
+Homework3+two_bonus: https://denisvolhonsky.github.io/ReactJS_HW/hw_3/build/index.html
+
 
 
 ## Домашнее задание #1

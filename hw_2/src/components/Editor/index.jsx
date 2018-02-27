@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import v4 from 'uuid/v4';
 import './style.css';
 
-export default class Editor extends React.Component {
+export default class Editor extends Component {
    static propTypes = {
         onFormSubmit: PropTypes.func.isRequired
     }
@@ -52,7 +52,7 @@ export default class Editor extends React.Component {
 
         return(
             <div className="posts__adding">
-                           <form className="form" onSubmit={this._HandleSubmit} ref={node=>this.form=node}>
+                <form className="form" onSubmit={this._HandleSubmit} ref={node=>this.form=node}>
                     <label className="all_labels" htmlFor="title">Введите название фильма:</label>
                     <input type="text" className="form__title" tabIndex="1" autoFocus ref={node=>this.inputTitle=node}/>
 

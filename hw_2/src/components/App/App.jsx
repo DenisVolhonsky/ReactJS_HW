@@ -6,9 +6,6 @@ import posts from 'db.js';
 import Editor from "../Editor/index";
 
 export default class App extends React.Component {
-    state = {
-           allPosts: posts
-    }
 
     onAddTodo = todo => {
         this.setState({
@@ -20,7 +17,6 @@ export default class App extends React.Component {
         this.setState({
            allPosts: this.state.allPosts.filter(post => post.id !== id )
         });
-
     }
 
     render() {
