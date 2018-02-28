@@ -1,18 +1,13 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
+import FavoriteItem from 'components/FavoriteItem';
 import './style.css';
 
-const FavoriteList = ({}) => {
+const FavoriteList = ({items, onClickDel}) => {
     return(
         <div className="favorite">
             <p className="favorite__title">Favorite list</p>
-            <ul>
-                {/*{favoriteCity.map(item =>*/}
-                    {/*<li className='favorite__item' key={item.id} onClick={() => onChangeCity(item.name)}>*/}
-                        {/*{item.name}*/}
-                        {/*<span className="delete-btn" onClick={() => onTodoClick(item.id)}></span>*/}
-                    {/*</li>)}*/}
-            </ul>
+            {items.map(item => <FavoriteItem key={item.id} {...item} onClickDel={onClickDel}/>)}
         </div>
     );
 }

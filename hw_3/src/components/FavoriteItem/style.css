@@ -1,0 +1,9 @@
+.FavoriteItem__img {
+    display: block;
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+.FavoriteItem__body {
+
+}

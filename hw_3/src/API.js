@@ -10,7 +10,7 @@ export function fetchData(category) {
             throw new Error('Fetching error'+ response.statusText);
         })
         .then(data => {
-            console.log(data);
+          //console.log(data);
             let films = [];
             data.results.map(item => {
                 const {id, title, overview, poster_path, vote_average, release_date} = item;
@@ -30,7 +30,7 @@ export function fetchFind(title) {
             throw new Error('Fetching error'+ response.statusText);
         })
         .then(data => {
-            console.log(data);
+            //console.log(data);
             let films = [];
             data.results.map(item => {
                 const {id, title, overview, poster_path, vote_average, release_date} = item;

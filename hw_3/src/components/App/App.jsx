@@ -10,10 +10,11 @@ import SearchCategory from 'components/SearchCategory';
 
 export default class App extends React.Component {
     state = {
-        allPosts: []
+        allPosts: [],
+        favoriteItems:[]
     }
 
-    handleChangeCategory = (category) => {
+    handleChangeCategory = category => {
         fetchData(category).then(data => {
             this.setState({
                 allPosts: data
@@ -21,7 +22,7 @@ export default class App extends React.Component {
         });
     }
 
-    handleFind = (title) => {
+    handleFind = title => {
         console.log(title);
         fetchFind(title).then(data => {
             this.setState({
@@ -30,9 +31,24 @@ export default class App extends React.Component {
         });
     }
 
+    addToFavorite = film => {
+        let arr = [...this.state.favoriteItems, film];
+        this.setState({favoriteItems: arr.filter((item, index, self) => index === self.findIndex(t =>  t.id === item.id))});
+    }
+
+    deleteFavorite = id => {    // delete for favorite list
+        this.setState({
+            favoriteItems: this.state.favoriteItems.filter(post => post.id !== id)
+        });
+    }
+
 
     /////////////////on loading/////////////
     componentWillMount(){
+
+        let favorite = localStorage.getItem('favoriteItems');
+        this.setState({favoriteItems: JSON.parse(favorite)});
+
         fetchData('popular').then(data => {
             this.setState({
                 allPosts: data
@@ -42,24 +58,24 @@ export default class App extends React.Component {
     /////////////////////////////////////////
 
     render() {
+       const {allPosts, favoriteItems} = this.state;
+       console.log(favoriteItems);
 
-       const {allPosts} = this.state;
-       console.log(allPosts);
+        localStorage.setItem('favoriteItems', JSON.stringify(this.state.favoriteItems));  // set data from Local Storage
 
         return (
             <div className="Container">
                 <Header/>
                 <div className="Content">
-
                     <SearchBlock className="SearchBlock">
                         <SearchField onChangeFilm={this.handleFind}/>
                         <SearchCategory onChangeCategory={this.handleChangeCategory}/>
-                        <FavoriteList/>
+                        <FavoriteList items={favoriteItems} onClickDel={this.deleteFavorite}/>
                     </SearchBlock>
-
-                    <Posts items={allPosts}/>
+                    <Posts items={allPosts} onClickAdd={this.addToFavorite}/>
                 </div>
             </div>
         );
     }
 }
+
