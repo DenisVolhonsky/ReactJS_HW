@@ -3,24 +3,15 @@ import './App.css';
 import Header from 'components/Header';
 import Posts from 'components/Posts';
 import {fetchData} from 'API.js';
-// import Editor from "../Editor/index";
+import SearchBlock from 'components/SearchBlock';
+import SearchField from 'components/SearchField';
+import FavoriteList from 'components/FavoriteList';
+import SearchCategory from 'components/SearchCategory';
 
 export default class App extends React.Component {
     state = {
-        allPosts: []//posts
+        allPosts: []
     }
-
-    // onAddTodo = todo => {
-    //     this.setState({
-    //         allPosts: [...this.state.allPosts, todo]
-    //     });
-    // }
-
-    // onDeleteTodo = id => {
-    //     this.setState({
-    //        allPosts: this.state.allPosts.filter(post => post.id !== id )
-    //     });
-    // }
 
 
     //////////////////////////////
@@ -39,10 +30,16 @@ export default class App extends React.Component {
        const {allPosts} = this.state;
         console.log(allPosts);
         return (
-            <div className="container">
+            <div className="Container">
                 <Header/>
-                <div className="posts__container">
-                    {/*<Editor/>*/}
+                <div className="Content">
+
+                    <SearchBlock className="SearchBlock">
+                        <SearchField/>
+                        <SearchCategory/>
+                        <FavoriteList/>
+                    </SearchBlock>
+
                     <Posts items={allPosts}/>
                 </div>
             </div>

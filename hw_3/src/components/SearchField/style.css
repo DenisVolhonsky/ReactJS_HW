@@ -1,0 +1,13 @@
+.SearchField {
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+.SearchField__input {
+
+}
+SearchField__btn {
+    display: block;
+    margin: 20px;
+}
+

@@ -1,5 +1,7 @@
 .PostsItem {
+    margin: 20px;
     width: 250px;
+    border: 1px solid #000;
 }
 
 .PostsItem__img {
@@ -8,5 +10,8 @@
     height: 200px;
     object-fit: cover;
 }
+
+
+
 
 

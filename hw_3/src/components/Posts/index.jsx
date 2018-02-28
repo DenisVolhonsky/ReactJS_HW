@@ -16,7 +16,7 @@ import './style.css'
 // );
 
 const Posts = ({items}) => (
-    <div>
+    <div className="Posts">
         {items.map(post => <PostsItem key={post.id} {...post}/>)}
     </div>
 );
