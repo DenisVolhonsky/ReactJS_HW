@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from 'components/Header';
 import Posts from 'components/Posts';
-import {fetchData} from 'API.js';
+import {fetchData, fetchFind} from 'API.js';
 import SearchBlock from 'components/SearchBlock';
 import SearchField from 'components/SearchField';
 import FavoriteList from 'components/FavoriteList';
@@ -15,6 +15,15 @@ export default class App extends React.Component {
 
     handleChangeCategory = (category) => {
         fetchData(category).then(data => {
+            this.setState({
+                allPosts: data
+            });
+        });
+    }
+
+    handleFind = (title) => {
+        console.log(title);
+        fetchFind(title).then(data => {
             this.setState({
                 allPosts: data
             });
@@ -43,7 +52,7 @@ export default class App extends React.Component {
                 <div className="Content">
 
                     <SearchBlock className="SearchBlock">
-                        <SearchField/>
+                        <SearchField onChangeFilm={this.handleFind}/>
                         <SearchCategory onChangeCategory={this.handleChangeCategory}/>
                         <FavoriteList/>
                     </SearchBlock>
