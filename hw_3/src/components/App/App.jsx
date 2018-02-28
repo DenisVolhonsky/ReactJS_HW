@@ -13,22 +13,30 @@ export default class App extends React.Component {
         allPosts: []
     }
 
-
-    //////////////////////////////
-    componentWillMount(){
-        fetchData().then(data => {
+    handleChangeCategory = (category) => {
+        fetchData(category).then(data => {
             this.setState({
                 allPosts: data
             });
         });
     }
 
-    //////////////////////////////
+
+    /////////////////on loading/////////////
+    componentWillMount(){
+        fetchData('popular').then(data => {
+            this.setState({
+                allPosts: data
+            });
+        });
+    }
+    /////////////////////////////////////////
 
     render() {
 
        const {allPosts} = this.state;
-        console.log(allPosts);
+       console.log(allPosts);
+
         return (
             <div className="Container">
                 <Header/>
@@ -36,7 +44,7 @@ export default class App extends React.Component {
 
                     <SearchBlock className="SearchBlock">
                         <SearchField/>
-                        <SearchCategory/>
+                        <SearchCategory onChangeCategory={this.handleChangeCategory}/>
                         <FavoriteList/>
                     </SearchBlock>
 

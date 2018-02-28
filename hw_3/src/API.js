@@ -2,8 +2,8 @@
 // https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg
 // https://image.tmdb.org/t/p/w500/lkOZcsXcOLZYeJ2YxJd3vSldvU4.jpg
 
-export function fetchData() {
-    return fetch(`https://api.themoviedb.org/3/movie/popular?api_key=5a3dbcb0d2e3f7987f7290f6cae43c47`)
+export function fetchData(category) {
+    return fetch(`https://api.themoviedb.org/3/movie/${category}?api_key=5a3dbcb0d2e3f7987f7290f6cae43c47`)
         .then(response=>{
             if(response.ok) return response.json();
             throw new Error('Fetching error'+ response.statusText);
