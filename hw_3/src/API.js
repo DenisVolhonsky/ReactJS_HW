@@ -18,7 +18,6 @@ export function fetchData(category) {
                 return films;
             });
             return films;
-            //console.log(films);
         })
         .catch(err => console.log(err));
 }
@@ -38,7 +37,6 @@ export function fetchFind(title) {
                 return films;
             });
             return films;
-            //console.log(films);
         })
         .catch(err => console.log(err));
 }
