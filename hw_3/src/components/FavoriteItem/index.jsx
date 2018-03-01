@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const FavoriteItem = ({id, title, release_date, vote_average, poster_path, onClickDel}) => {
-    let release = release_date.slice(0,4);
+    let release = release_date.substr(0,4);
     return (
         <div className="FavoriteItem">
             <img className="FavoriteItem__img" src={`https://image.tmdb.org/t/p/w500/${poster_path}`} alt=""/>
