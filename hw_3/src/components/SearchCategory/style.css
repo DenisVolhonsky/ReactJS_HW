@@ -1,4 +1,23 @@
 .SearchCategory {
-    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
 }
 
+.SearchCategory__btn {
+    display: block;
+    outline: 0;
+    border: 0;
+    background-color: #e2b100;
+    cursor: pointer;
+    padding: 10px 8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #0c161e;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 4px;
+    transition: all .1s linear;
+}

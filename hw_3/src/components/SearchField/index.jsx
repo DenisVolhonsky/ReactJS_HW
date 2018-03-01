@@ -15,7 +15,7 @@ const SearchField = ({onChangeFilm}) => {
 
         return(
             <form className="SearchField" onSubmit={onFormSubmit}>
-                <input className="SearchField__input" type="text" ref={node => (input=node)}/>
+                <input className="SearchField__input" type="text" placeholder="Search movies by name..." ref={node => (input=node)}/>
             </form>
         );
 }

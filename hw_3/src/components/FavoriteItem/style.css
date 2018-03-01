@@ -41,12 +41,13 @@
     color: #fff;
 }
 .FavoriteItem__title {
+    margin-top: 0;
     font-size: 16px;
 }
 .FavoriteItem__release,
 .FavoriteItem__vote {
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 
