@@ -11,7 +11,7 @@ import SearchCategory from 'components/SearchCategory';
 export default class App extends React.Component {
     state = {
         allPosts: [],
-        favoriteItems:[],
+        favoriteItems:  JSON.parse(localStorage.getItem('favoriteItems'))||[]
     }
 
     handleChangeCategory = category => {
@@ -45,8 +45,8 @@ export default class App extends React.Component {
     /////////////////on loading/////////////
     componentWillMount(){
 
-        let favorite = localStorage.getItem('favoriteItems');
-        this.setState({favoriteItems: JSON.parse(favorite)});
+        // let favorite = localStorage.getItem('favoriteItems');
+        // this.setState({favoriteItems: JSON.parse(favorite)});
 
         fetchData('popular').then(data => {
             this.setState({
