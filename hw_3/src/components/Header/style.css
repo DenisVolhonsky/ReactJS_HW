@@ -2,13 +2,13 @@
     display: flex;
     margin-bottom: 20px;
     height: 60px;
-    border-bottom: 4px solid #3F51B5;
+    border-bottom: 4px solid #e2b100;
     justify-content: space-between;
     align-items: center;
 }
 .header__logo {
     text-decoration: none;
-    color: #3F51B5;
+    color: #e2b100;
 }
 .navbar__list {
     display: inline-block;
