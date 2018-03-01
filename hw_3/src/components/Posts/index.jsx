@@ -8,7 +8,7 @@ const Posts = ({items, onClickAdd, onNotFind}) => {
     if(items.length === 0){
         return (
             <div className="Posts">
-                <p>Nothing find!!!</p>
+                <p className="Posts__empty">Nothing find!!!</p>
             </div>
         )
     }

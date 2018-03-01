@@ -7,3 +7,15 @@
     align-items: stretch;
     min-width: 1024px;
 }
+.Posts__empty {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    color: #959595;
+    font-size: 38px;
+    line-height: 1.5;
+}
+

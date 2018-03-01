@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css'
 
 const SearchField = ({onChangeFilm}) => {
-
     let input = '';
 
     const onFormSubmit = (event) => {
@@ -13,11 +12,11 @@ const SearchField = ({onChangeFilm}) => {
         event.target.reset(); // reset input value after submit
     }
 
-        return(
-            <form className="SearchField" onSubmit={onFormSubmit}>
-                <input className="SearchField__input" type="text" placeholder="Search movies by name..." ref={node => (input=node)}/>
-            </form>
-        );
+    return(
+        <form className="SearchField" onSubmit={onFormSubmit}>
+            <input className="SearchField__input" type="text" placeholder="Search movies by name..." ref={node => (input=node)}/>
+        </form>
+    );
 }
 
 export default  SearchField;

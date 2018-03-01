@@ -1,8 +1,7 @@
 .Favorite {
-    /*margin-right: 20px;*/
-    padding: 0 10px 0 10px;
-    max-width: 400px;
-    min-height:300px;
+    padding: 0 10px;
+    min-width: 400px;
+    min-height: 300px;
     max-height: 65vh;
     overflow-y: auto;
     border-radius: 6px;
@@ -47,5 +46,12 @@
     position: relative;
     font-size: 18px;
 }
+.Favorite__empty {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #0c161e;
+}
+
 
 
