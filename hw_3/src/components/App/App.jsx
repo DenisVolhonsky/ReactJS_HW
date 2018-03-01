@@ -11,7 +11,7 @@ import SearchCategory from 'components/SearchCategory';
 export default class App extends React.Component {
     state = {
         allPosts: [],
-        favoriteItems:[]
+        favoriteItems:[],
     }
 
     handleChangeCategory = category => {
@@ -23,7 +23,6 @@ export default class App extends React.Component {
     }
 
     handleFind = title => {
-        console.log(title);
         fetchFind(title).then(data => {
             this.setState({
                 allPosts: data
@@ -54,14 +53,13 @@ export default class App extends React.Component {
                 allPosts: data
             });
         });
+
     }
     /////////////////////////////////////////
 
     render() {
        const {allPosts, favoriteItems} = this.state;
-       console.log(favoriteItems);
-
-        localStorage.setItem('favoriteItems', JSON.stringify(this.state.favoriteItems));  // set data from Local Storage
+       localStorage.setItem('favoriteItems', JSON.stringify(this.state.favoriteItems));  // set data from Local Storage
 
         return (
             <div className="Container">
@@ -72,10 +70,9 @@ export default class App extends React.Component {
                         <SearchCategory onChangeCategory={this.handleChangeCategory}/>
                         <FavoriteList items={favoriteItems} onClickDel={this.deleteFavorite}/>
                     </SearchBlock>
-                    <Posts items={allPosts} onClickAdd={this.addToFavorite}/>
+                    <Posts items={allPosts} onClickAdd={this.addToFavorite} />
                 </div>
             </div>
         );
     }
 }
-

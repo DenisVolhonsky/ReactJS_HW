@@ -4,12 +4,22 @@ import FavoriteItem from 'components/FavoriteItem';
 import './style.css';
 
 const FavoriteList = ({items, onClickDel}) => {
-    return(
-        <div className="favorite">
-            <p className="favorite__title">Favorite list</p>
-            {items.map(item => <FavoriteItem key={item.id} {...item} onClickDel={onClickDel}/>)}
-        </div>
-    );
+    if(items.length === 0) {
+        return(
+            <div className="Favorite">
+                <p className="Favorite__title">watchlist</p>
+                <p className="Favorite__empty">Add movies to watchlist...</p>
+            </div>
+        );
+    }
+    else{
+        return(
+            <div className="Favorite">
+                <p className="Favorite__title">watchlist</p>
+                {items.map(item => <FavoriteItem key={item.id} {...item} onClickDel={onClickDel}/>)}
+            </div>
+        );
+    }
 }
 
 // FavoriteList.propTypes = {

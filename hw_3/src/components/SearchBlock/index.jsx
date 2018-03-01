@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 
 const SearchBlock= ({children}) => (
-    <div className="search__block">
+    <div className="Search__block">
         {children}
     </div>
 )
