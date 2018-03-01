@@ -5,7 +5,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: stretch;
-    min-width: 1024px;
+    /*min-width: 1024px;*/
 }
 .Posts__empty {
     position: absolute;

@@ -3,12 +3,11 @@ import PropTypes from 'prop-types';
 import PostsItem from 'components/PostsItem';
 import './style.css'
 
-const Posts = ({items, onClickAdd, onNotFind}) => {
-
+const Posts = ({items, onClickAdd}) => {
     if(items.length === 0){
         return (
             <div className="Posts">
-                <p className="Posts__empty">Nothing find!!!</p>
+                <p className="Posts__empty">Nothing find!!! Try again...</p>
             </div>
         )
     }
@@ -37,6 +36,7 @@ Posts.propTypes = {
 }
 
 export default Posts;
+
 
 
 
