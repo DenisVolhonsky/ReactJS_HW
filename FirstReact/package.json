@@ -13,5 +13,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage" : "https://denisvolhonsky.github.io/ReactJS_HW/FirstReact/build/index.html"
+  "homepage" : "https://denisvolhonsky.github.io/React_JS_Portfolio/FirstReact/build/index.html"
 }

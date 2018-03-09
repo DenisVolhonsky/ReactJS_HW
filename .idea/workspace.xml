@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290174db-8352-4159-a836-0194d85ead80" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FilmGallery/package.json" afterPath="$PROJECT_DIR$/FilmGallery/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FilmGalleryRouting/package.json" afterPath="$PROJECT_DIR$/FilmGalleryRouting/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstReact/package.json" afterPath="$PROJECT_DIR$/FirstReact/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +20,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FilmGalleryRouting/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FirstReact/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TodoList/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,27 +70,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TodoList/src/components/Posts/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TodoList/src/components/App/App.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/FirstReact/src/components/App/App.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FilmGallery/src/API.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TodoList/src/components/App/App.jsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/FirstReact/src/posts.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/PostsItem/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FirstReact/src/components/Header/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FilmGallery/src/API.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/SearchCategory/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FirstReact/src/components/Posts/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TodoList/src/components/Header/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FirstReact/src/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FirstReact/src/components/Editor/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TodoList/src/components/Posts/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/FavoriteItem/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TodoList/src/components/Editor/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/App/App.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/FavoriteList/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/Posts/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/SearchField/index.jsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TodoList/src/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TodoList/src/db.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/SearchBlock/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/FavoriteItem/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FirstReact/src/components/Header/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FirstReact/src/components/Posts/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/PostsItem/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/SearchCategory/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FirstReact/src/components/Editor/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TodoList/src/index.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FirstReact/src/index.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/SearchField/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/FavoriteList/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TodoList/src/components/Editor/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TodoList/src/components/Header/index.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/App/App.jsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/FilmGallery/src/components/Posts/index.jsx" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,6 +138,10 @@
         <option value="$PROJECT_DIR$/hw_3/package.json" />
         <option value="$PROJECT_DIR$/hw_4/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/TodoList/package.json" />
+        <option value="$PROJECT_DIR$/FirstReact/package.json" />
+        <option value="$PROJECT_DIR$/FilmGalleryRouting/package.json" />
+        <option value="$PROJECT_DIR$/FilmGallery/package.json" />
       </list>
     </option>
   </component>
@@ -139,23 +178,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ReactJS_HW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactJS_HW" type="462c0819:PsiDirectoryNode" />
+              <item name="React_JS_Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React_JS_Portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ReactJS_HW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReactJS_HW" type="462c0819:PsiDirectoryNode" />
-              <item name="FilmGalleryRouting" type="462c0819:PsiDirectoryNode" />
+              <item name="React_JS_Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React_JS_Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -212,23 +251,25 @@
       <workItem from="1519748648641" duration="21003000" />
       <workItem from="1519812682726" duration="10377000" />
       <workItem from="1519823198526" duration="25794000" />
-      <workItem from="1520613731100" duration="2592000" />
+      <workItem from="1520613731100" duration="3895000" />
+      <workItem from="1520618270793" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100791000" />
+    <option name="totallyTimeSpent" value="102174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15178572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25892857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23519737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3305921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -236,7 +277,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -253,27 +294,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FirstReact/src/components/Editor/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstReact/src/components/App/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstReact/src/components/App/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstReact/src/components/Editor/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -557,10 +577,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="10" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoList/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoList/build/static/js/main.8d2006cf.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoList/build/static/js/main.8d2006cf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmGallery/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FilmGalleryRouting/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FirstReact/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding />
         </state>
       </provider>
@@ -568,40 +643,8 @@
     <entry file="file://$PROJECT_DIR$/TodoList/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilmGallery/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="87" lean-forward="false" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FilmGalleryRouting/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="10" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
