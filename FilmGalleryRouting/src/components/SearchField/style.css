@@ -1,0 +1,18 @@
+.SearchField {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 2px;
+    background-color: #e2b100;
+
+}
+.SearchField__input {
+    padding: 8px;
+    font-size: 18px;
+    flex-grow: 1;
+    color: #212121;
+    border: 0;
+    border-radius: 6px;
+}
+
+

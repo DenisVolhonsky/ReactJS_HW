@@ -1,0 +1,10 @@
+.Container {
+    margin: 0 auto;
+    width: 96%;
+}
+.Content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
