@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://denisvolhonsky.github.io/React_JS_Portfolio/TodoList/build/index.html"
+  "homepage": "https://denisvolhonsky.github.io/React_JS_Portfolio/TodoList/build/"
 }
