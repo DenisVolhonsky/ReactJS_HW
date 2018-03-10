@@ -1,6 +1,6 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import FavoriteItem from 'components/FavoriteItem';
+import FavoriteItem from 'components/PageMovies/FavoriteItem';
 import './style.css';
 
 const FavoriteList = ({items, onClickDel}) => {

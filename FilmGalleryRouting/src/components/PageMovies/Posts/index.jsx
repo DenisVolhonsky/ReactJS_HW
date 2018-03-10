@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import PostsItem from 'components/PostsItem';
+import PostsItem from 'components/PageMovies/PostsItem';
 import './style.css'
 
 const Posts = ({items, onClickAdd}) => {

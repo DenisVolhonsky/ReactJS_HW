@@ -4,16 +4,6 @@
     min-width: 1280px;
     margin: auto;
     padding: 0 10px;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
     flex-direction: column;
 }
-.Content {
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-    padding-bottom: 10px;
-}
-
-
