@@ -1,11 +1,8 @@
 .Posts {
-    margin-left: 2%;
-    width: 100%;
+    position: relative;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    align-items: stretch;
-    /*min-width: 1024px;*/
+    flex: 0 0 78%;
 }
 .Posts__empty {
     position: absolute;

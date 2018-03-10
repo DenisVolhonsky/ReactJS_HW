@@ -4,18 +4,17 @@
     align-items: center;
     padding: 5px 0;
     margin-bottom: 30px;
-    border-bottom: 4px solid #e2b100;
+    border-bottom: 4px solid #424242;
 }
 
 .Header__logo {
-    color: #fff;
+    color: #424242;
     text-decoration: none;
 
 }
 
 .Navigation {
     display: flex;
-    flex-direction: row-reverse;
     list-style: none;
 }
 
@@ -28,12 +27,12 @@
     display: block;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
+    color: #424242;
     font-size: 20px;
 }
 
 .Navigation__link:hover {
-    color: #e2b100;
+    color: #424242;
     cursor: pointer;
 }
 
@@ -44,7 +43,7 @@
     content: "";
     width: 0;
     height: 4px;
-    background: #3f51b5;
+    background: #ffffff;
     -webkit-transition: width .3s linear;
     transition: width .3s linear;
 }

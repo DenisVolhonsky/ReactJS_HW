@@ -1,5 +1,7 @@
 .Search__block {
-    height: auto;
-    min-height: 500px;
-    border-radius: 10px;
+    /*height: auto;*/
+    /*min-height: 300px;*/
+    /*border-radius: 10px;*/
+    flex: 0 0 20%;
+    padding-top: 20px;
 }

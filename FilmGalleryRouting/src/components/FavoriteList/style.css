@@ -1,11 +1,12 @@
 .Favorite {
-  padding: 0 10px;
-  min-width: 400px;
-  min-height: 300px;
-  max-height: 65vh;
+  position: relative;
+  min-height: 350px;
+  max-height: 72vh;
   overflow-y: auto;
-  border-radius: 6px;
-  background-color: #e2b100;
+  padding: 12px 8px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 3px solid #424242;
 }
 .Favorite::-webkit-scrollbar {
   width: 15px;
@@ -15,14 +16,14 @@
   background-color: #f5f5f5;
 }
 .Favorite::-webkit-scrollbar-thumb {
-  background-color: #3f51b5;
+  background-color: #424242;
 }
 .Favorite__title {
   display: flex;
   font-weight: 700;
   justify-content: center;
   align-items: center;
-  color: #0c161e;
+  color: #424242;
   text-transform: uppercase;
   font-size: 28px;
   margin-bottom: 15px;
@@ -33,7 +34,7 @@
   content: "";
   width: 20%;
   height: 2px;
-  background-color: #0c161e;
+  background-color: #424242;
 }
 .Favorite__title:before {
   margin-right: 10px;
@@ -49,5 +50,5 @@
   padding-top: 50px;
   text-align: center;
   font-size: 20px;
-  color: #0c161e;
+  color: #424242;
 }
