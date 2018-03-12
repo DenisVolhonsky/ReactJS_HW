@@ -1,5 +1,4 @@
 .TeamList {
-    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -25,6 +24,7 @@
 .TeamList__card {
     width: 400px;
 }
+/*Member*/
 .MemberCard {
     position: relative;
     display: -ms-flexbox;
@@ -61,6 +61,7 @@
 .MemberCard__pos {
     font-size: 30px;
 }
+
 
 
 

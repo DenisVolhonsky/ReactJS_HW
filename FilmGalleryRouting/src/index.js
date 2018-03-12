@@ -8,7 +8,7 @@ import App from 'components/App/App'
 const root = document.getElementById('root');
 
 ReactDOM.render((
-    <BrowserRouter basename="/React_JS_Portfolio/FilmGalleryRouting/build">
+    <BrowserRouter basename="/React_JS_Portfolio/FilmGalleryRouting/build/">
         <App/>
     </BrowserRouter>
 ) , root);

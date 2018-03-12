@@ -1,43 +1,73 @@
 import React from 'react';
-import {Switch, Route, NavLink} from 'react-router-dom';
-import TeamDB from 'components/TeamDB.js'
+import {NavLink, Route, Switch} from 'react-router-dom';
+import teamDB from 'components/teamDB.js'
 import './style.css';
 
 const Team = (props) => {
     return (
         <div className="TeamList">
             <ul className="TeamList__members">
-                {TeamDB.map(item =>(
+                {teamDB.map(item =>(
                     <li key={item.id}>
                         <NavLink
                             className="TeamList__members__link"
                             activeClassName="TeamList__members__link--active"
-                            exact to={`${props.match.path}/${item.id}`}>
+                            to={`${props.match.path}/${item.id}`}>
                             {item.name}
-                            </NavLink>
+                        </NavLink>
                     </li>)
                 )}
             </ul>
 
-            <div className="TeamList__card">
-                {TeamDB.map(item =>(
-                    <div className="MemberCard" key={item.id}>
-                        <img className="MemberCard__img" src={`${item.photo}`} alt={`${item.name}`}/>
-                        <div className="MemberCard__info">
-                            <h2 className="MemberCard__name">{`${item.name}`}</h2>
-                            <p className="MemberCard__pos">{`${item.position}`}</p>
-                        </div>
-                    </div>
-                ))}
-            </div>
+
+            <Switch>
+            <Route path={`${props.match.path}/0`} render={()=><h1>0</h1>}/>
+            <Route path={`${props.match.path}/1`} render={()=><h1>1</h1>}/>
+            <Route path={`${props.match.path}/2`} render={()=><h1>2</h1>}/>
+            </Switch>
+
+
+            {/*<div className="TeamList__card">*/}
+                {/*{teamDB.map(item =>(*/}
+                    {/*<div className="MemberCard" key={item.id}>*/}
+                        {/*<img className="MemberCard__img" src={`${item.photo}`} alt={`${item.name}`}/>*/}
+                        {/*<div className="MemberCard__info">*/}
+                            {/*<h2 className="MemberCard__name">{`${item.name}`}</h2>*/}
+                            {/*<p className="MemberCard__pos">{`${item.position}`}</p>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
+                {/*))}*/}
+            {/*</div>*/}
         </div>
     );
 };
 
 export default Team;
 
-// {/*<Switch>*/}
-// {/*<Route exact path={`${props.match.path}/0`} renrer{()=><h1>0</h1>}></Route>*/}
-// {/*<Route exact path={`${props.match.path}/1`} renrer{()=><h1>1</h1>}></Route>*/}
-// {/*<Route exact path={`${props.match.path}/2`} renrer{()=><h1>0</h1>}></Route>*/}
-// {/*</Switch>*/}
+
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+//
+// <div>
+//     {/*{teamDB.map(item=> <NavLink key={item.id} exact to={`${match.path}/${item.id}`}>{item.name}</NavLink>)}*/}
+//     <NavLink to="/about/team/0">0</NavLink>
+//
+//     <Route
+//         path="/about/team/0"
+//         render={props => {
+//             console.log(props);
+//             return <h1>qwe</h1>
+//         }}
+//     />
+// </div>
