@@ -9,12 +9,11 @@ class SearchCategory extends React.Component {
     };
 
     _handleActiveBtn = event => {
+        this.props.onChangeCategory(event.target.value);
         this.setState({
             selectBtn: event.target.value,
         });
-        this.props.onChangeCategory(this.state.selectBtn);
     }
-
 
     render() {
         return (
