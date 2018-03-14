@@ -13,7 +13,10 @@
 }
 .StackList__icon {
     display: block;
-    width: 100%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
     background-position: 50%;
     background-size: cover;
 }

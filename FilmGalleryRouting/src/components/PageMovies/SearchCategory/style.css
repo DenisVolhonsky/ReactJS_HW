@@ -9,7 +9,7 @@
     display: block;
     outline: 0;
     border: 0;
-    background-color: #fff;
+    background-color: #ffffff;
     cursor: pointer;
     padding: 10px;
     text-transform: uppercase;
@@ -22,5 +22,10 @@
     border: 3px solid #424242;
     box-shadow: 2px 4px 2px 0 rgba(33,33,33,.5);
     transition: all .1s linear;
+}
 
+.SearchCategory__btn--active {
+    background-color: #424242;
+    box-shadow: none;
+    color: #ffffff;
 }
